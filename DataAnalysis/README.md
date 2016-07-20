@@ -1,1 +1,1 @@
-# Somatosensoric Activity Recognition by Penalized Splines
+# Data analysis of intraoperative thermal neuroimaging 
