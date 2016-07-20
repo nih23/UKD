@@ -1,0 +1,13 @@
+compile with:
+
+// MAC
+mex -I/Users/nico/Code/opengm/include -I/Users/nico/Code/opengm/src/external/TRWS-v1.3.src-patched mexOpenGMInference.cpp
+
+// WINDOWS
+// GraphCut + TRWS
+mex -ID:\Nico\opengm-master\include -ID:\Nico\opengm-master\/src/external/TRWS-v1.3.src-patched mexOpenGMInference.cpp
+
+mex -ID:\Nico\opengm-master\include -ID:\Nico\opengm-master\/src/external/TRWS-v1.3.src-patched mexOpenGMInference_N2.cpp
+
+// GraphCut + TRWS
+mex -ID:\Nico\opengm-master\include -ID:\Nico\opengm-master\src\external\MaxFlow-v3.02.src-patched -ID:\Nico\opengm-master\/src/external/TRWS-v1.3.src-patched mexOpenGMInferenceGraphcut.cpp
